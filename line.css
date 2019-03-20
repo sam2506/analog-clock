@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.abc{
+    position: relative;
+    left: 27.5%;
+    height: 39em;
+    width: 45%;
+    border: solid 5px rgb(136,135,135);
+    border-radius: 50%;
+    background: radial-gradient(white,rgb(209,209,189));
+}
+/*@keyframes rotate{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}*/
+#hr1{
+    position: absolute;
+    top: 50%;
+    width: 55%;
+    left: 39%;
+    height: 2px;
+    background-color: black;
+    border: none;
+    /*background: linear-gradient(bottom,black,white); */
+    /*transform: rotate(0deg);*/
+    /*animation: rotate 60s linear 0s infinite;*/
+}
+#hr2{
+    position: absolute;
+    top: 50%;
+    width: 50%;
+    left: 39%;
+    height: 3px;
+    background-color: black;
+    border: none;
+    /*animation: rotate1 10s linear 0s 1;*/
+}
+#hr3{
+    position: absolute;
+    top: 50%;
+    width: 35%;
+    left: 43.4%;
+    height: 4px;
+    background-color: black;
+    border: none;
+    /*animation: rotate2 10s linear 0s 1;*/
+}
+#dig1{
+    position: absolute;
+    left: 44%;
+    font-size: 500%;
+}
+#dig3{
+    position: absolute;
+    left: 47%;
+    top: 85%;
+    font-size: 500%;
+}
+#dig2{
+    position: absolute;
+    left: 3%;
+    top: 43%;
+    font-size: 500%;
+}
+#dig4{
+    position: absolute;
+    left: 92%;
+    top: 43%;
+    font-size: 500%;
+}
